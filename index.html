@@ -4,75 +4,103 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="body">
     <header>
-      <a class="logo" href="./index.html">Product</a>
+      <a class="link logo" href="./index.html">Product</a>
       <nav>
         <lu class="nav-list">
           <li class="nav-item">
-            <a href="./index.html" class="nav-link">Product</a>
+            <a class="link nav-link current" href="./index.html">Product</a>
           </li>
-          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Customers</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Resources</a></li>
+          <li class="nav-item">
+            <a class="link nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="link nav-link" href="#">Customers</a>
+          </li>
+          <li class="nav-item">
+            <a class="link nav-link" href="#">Resources</a>
+          </li>
         </lu>
       </nav>
       <ul class="list">
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
+        <li><button class="btn small-btn" type="button">Sign In</button></li>
+        <li>
+          <button class="btn accent small-btn" type="button">Sign Up</button>
+        </li>
       </ul>
     </header>
     <main>
       <section class="hero">
-        <h1>Work at the speed of thought</h1>
-        <p>
+        <h1 class="hero-title">
+          Work at the speed <br />
+          of thought
+        </h1>
+        <p class="hero-descr">
           Tools, tutorials, design and innovation experts, all in one place! The
           most intuitive way to imagine your next user experience.
         </p>
-        <button type="button">Get started</button>
-        <a href="">Watch the Video</a>
+        <button class="btn accent big-btn" type="button">Get started</button>
+        <a class="accent" href="">Watch the Video</a>
       </section>
-      <section>
-        <h2>Product was Built Specifically for You</h2>
-        <ul class="list">
+      <section class="advantages">
+        <h2 class="section-title">Product was Built Specifically for You</h2>
+        <ul class="list advantages-list">
           <li>
-            <h3>First click tests</h3>
-            <p>While most people enjoy casino gambling,</p>
+            <h3 class="advantage-subtitle">First click tests</h3>
+            <p class="advantages-descr">
+              While most people enjoy casino gambling,
+            </p>
           </li>
           <li>
-            <h3>Design surveys</h3>
-            <p>Sports betting, lottery and bingo playing for the fun</p>
+            <h3 class="advantage-subtitle">Design surveys</h3>
+            <p class="advantages-descr">
+              Sports betting, lottery and bingo playing for the fun
+            </p>
           </li>
           <li>
-            <h3>Preference tests</h3>
-            <p>The Myspace page defines the individual.</p>
+            <h3 class="advantage-subtitle">Preference tests</h3>
+            <p class="advantages-descr">
+              The Myspace page defines the individual.
+            </p>
           </li>
           <li>
-            <h3>Five second tests</h3>
-            <p>Personal choices and the overall personality of the person.</p>
+            <h3 class="advantage-subtitle">Five second tests</h3>
+            <p class="advantages-descr">
+              Personal choices and the overall personality of the person.
+            </p>
           </li>
         </ul>
-        <button type="button">Sign Up now</button>
+        <button class="btn accent big-btn" type="button ">Sign Up now</button>
       </section>
-      <section>
-        <h2><span>Effortless Validation for </span>Management</h2>
-        <p>
+      <section class="management">
+        <h2 class="section-title">
+          <span class="pre-title">Effortless Validation for </span
+          ><br />Management
+        </h2>
+        <p class="management-descr">
           The Myspace page defines the individual, his or her characteristics,
           traits, personal choices and the overall personality of the person.
         </p>
         <ul class="list">
           <li>
-            <h3>Accessory makers</h3>
+            <h3 class="section-subtitle">Accessory makers</h3>
             <p>
               While most people enjoy casino gambling, sports betting, lottery
               and bingo playing for the fun
             </p>
           </li>
           <li>
-            <h3>Alterationists</h3>
+            <h3 class="section-subtitle">Alterationists</h3>
             <p>
               If you are looking for a new way to promote your business that
               won’t cost you more money,
@@ -80,8 +108,11 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2><span>Easier decision making for </span>Customer Support</h2>
+      <section class="support">
+        <h2 class="section-title">
+          <span class="pre-title">Easier decision making for </span
+          ><br />Customer Support
+        </h2>
         <p>
           The Myspace page defines the individual, his or her characteristics,
           traits, personal choices and the overall personality of the person.
@@ -101,8 +132,10 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2><span>Optimisation for </span>Collaborative</h2>
+      <section class="collaborative">
+        <h2 class="section-title">
+          <span class="pre-title">Optimisation for </span><br />Collaborative
+        </h2>
         <p>
           Few would argue that, despite the advancements of feminism over the
           past three decades, women still face a double standard when it comes
@@ -110,14 +143,14 @@
         </p>
         <ul class="list">
           <li>
-            <h3>Accessory makers</h3>
+            <h3 class="section-subtitle">Accessory makers</h3>
             <p>
               While most people enjoy casino gambling, sports betting, lottery
               and bingo playing for the fun
             </p>
           </li>
           <li>
-            <h3>Alterationists</h3>
+            <h3 class="section-subtitle">Alterationists</h3>
             <p>
               If you are looking for a new way to promote your business that
               won’t cost you more money,
@@ -125,20 +158,20 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Quick & Easy Process</h2>
-        <p>
+      <section class="staff">
+        <h2 class="section-title">Quick & Easy Process</h2>
+        <p class="staff-descr">
           Do you require some help for your project: Conception workshop,
           prototyping, marketing strategy, landing page, Ux/UI?
         </p>
-        <ul class="list">
+        <ul class="list staff-list">
           <li>
             <img
               src="./images/avatar-1.png"
               alt="Emploee portrait"
               width="98"
             />
-            <p>I can take care of your pitch</p>
+            <p class="emploee-descr">I can take care of your pitch</p>
           </li>
           <li>
             <img
@@ -146,7 +179,7 @@
               alt="Emploee portrait"
               width="98"
             />
-            <p>I can prototype your app</p>
+            <p class="emploee-descr">I can prototype your app</p>
           </li>
           <li>
             <img
@@ -154,7 +187,7 @@
               alt="Emploee portrait"
               width="98"
             />
-            <p>I can take care of your pitch</p>
+            <p class="emploee-descr">I can take care of your pitch</p>
           </li>
           <li>
             <img
@@ -162,27 +195,33 @@
               alt="Emploee portrait"
               width="98"
             />
-            <p>I can help marketing strategy</p>
+            <p class="emploee-descr">I can help marketing strategy</p>
           </li>
         </ul>
-        <button type="button">Contact our expert</button>
+        <button class="btn big-btn accent" type="button">
+          Contact our expert
+        </button>
       </section>
       <section class="strategies">
-        <h2>Contents Strategies</h2>
-        <p>
+        <h2 class="section-title">Contents Strategies</h2>
+        <p class="strategies-descr">
           We focus on ergonomics and meeting you where you <br />
           work. It's only a keystroke away.
         </p>
 
-        <ul class="list">
+        <ul class="list strategies-list">
           <li>
             <img
               src="./images/strategies/bg-1.jpg"
               alt="Review notes during the meeting"
               width="350"
             />
-            <p>By Wahid Ari | 03 March 2019</p>
-            <h3>Increasing Prosperity With Positive Thinking</h3>
+            <p class="strategies-list-descr">
+              By <span class="author">Wahid Ari</span> | 03 March 2019
+            </p>
+            <h3 class="strategies-subtitle">
+              Increasing Prosperity With Positive Thinking
+            </h3>
           </li>
           <li>
             <img
@@ -190,8 +229,12 @@
               alt="View of the city from the office"
               width="350"
             />
-            <p>By Wahid Ari | 03 March 2019</p>
-            <h3>Increasing Prosperity With Positive Thinking</h3>
+            <p class="strategies-list-descr">
+              By <span class="author">Wahid Ari</span> | 03 March 2019
+            </p>
+            <h3 class="strategies-subtitle">
+              Increasing Prosperity With Positive Thinking
+            </h3>
           </li>
           <li>
             <img
@@ -199,96 +242,100 @@
               alt="Skyscraper on the background of the sky"
               width="350"
             />
-            <p>By Wahid Ari | 03 March 2019</p>
-            <h3>Increasing Prosperity With Positive Thinking</h3>
+            <p class="strategies-list-descr">
+              By <span class="author">Wahid Ari</span> | 03 March 2019
+            </p>
+            <h3 class="strategies-subtitle">
+              Increasing Prosperity With Positive Thinking
+            </h3>
           </li>
         </ul>
       </section>
       <section class="price">
-        <h2>Price Table</h2>
-        <p>We offer competitive price</p>
-        <ul class="list">
-          <li>
-            <h3>Free</h3>
-            <p>Brief price description</p>
-            <div><p>0</p></div>
+        <h2 class="section-title">Price Table</h2>
+        <p class="price-descr">We offer competitive price</p>
+        <ul class="list price-list">
+          <li class="price-item">
+            <h3 class="price-subtitle">Free</h3>
+            <p class="price-item-descr">Brief price description</p>
+            <div><p class="cost">0</p></div>
             <div>
-              <p>&dollar;</p>
-              <p>Per / month</p>
+              <p class="currency">&dollar;</p>
+              <p class="period">Per / month</p>
             </div>
-            <ul class="list">
+            <ul class="list includes-list">
               <li>Only 2 Operators</li>
               <li>Notifications</li>
               <li>Landing Pages</li>
             </ul>
-            <button type="button">Order Now</button>
+            <button class="btn accent" type="button">Order Now</button>
           </li>
-          <li>
-            <h3>Standard</h3>
-            <p>Brief price description</p>
+          <li class="price-item accent">
+            <h3 class="price-subtitle accent">Standard</h3>
+            <p class="price-item-descr">Brief price description</p>
             <div>
-              <p>5</p>
+              <p class="cost accent">5</p>
             </div>
             <div>
-              <p>&dollar;</p>
-              <p>Per / month</p>
+              <p class="currency accent">&dollar;</p>
+              <p class="period accent">Per / month</p>
             </div>
-            <ul class="list">
+            <ul class="list includes-list">
               <li>5+ Operators</li>
               <li>Notifications</li>
               <li>Landing Pages</li>
             </ul>
-            <button type="button">Order Now</button>
+            <button class="btn" type="button">Order Now</button>
           </li>
-          <li>
-            <h3>Premium</h3>
-            <p>Brief price description</p>
-            <div><p>10</p></div>
+          <li class="price-item">
+            <h3 class="price-subtitle">Premium</h3>
+            <p class="price-item-descr">Brief price description</p>
+            <div><p class="cost">10</p></div>
             <div>
-              <p>&dollar;</p>
-              <p>Per / month</p>
+              <p class="currency">&dollar;</p>
+              <p class="period">Per / month</p>
             </div>
-            <ul class="list">
+            <ul class="list includes-list">
               <li>10+ Operators</li>
               <li>Notifications</li>
               <li>Landing Pages</li>
             </ul>
-            <button type="button">Order Now</button>
+            <button class="btn accent" type="button">Order Now</button>
           </li>
         </ul>
       </section>
       <section class="reviews">
-        <h2>What Clients Say</h2>
-        <p>
-          Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics
+        <h2 class="section-title">What Clients Say</h2>
+        <p class="reviews-descr">
+          Problems trying to resolve the conflict between <br />
+          the two major realms of Classical physics: Newtonian mechanics
         </p>
-        <ul class="list">
+        <ul class="list reviews-list">
           <li>
-            <p>
+            <p class="post-descr">
               Product helps you see how many more days you need to work to reach
               your financial goal.
             </p>
             <img src="./images/clients/client-1.jpg" alt="Client avatar" />
-            <h3>Wahid Ari</h3>
+            <h3 class="accent">Wahid Ari</h3>
             <p>Designer</p>
           </li>
           <li>
-            <p>
+            <p class="post-descr">
               Product helps you see how many more days you need to work to reach
               your financial goal.
             </p>
             <img src="./images/clients/client-2.jpg" alt="Client avatar" />
-            <h3>Wahid Ari</h3>
+            <h3 class="accent">Wahid Ari</h3>
             <p>Designer</p>
           </li>
           <li>
-            <p>
+            <p class="post-descr">
               Product helps you see how many more days you need to work to reach
               your financial goal.
             </p>
             <img src="./images/clients/client-3.jpg" alt="Client avatar" />
-            <h3>Wahid Ari</h3>
+            <h3 class="accent">Wahid Ari</h3>
             <p>Designer</p>
           </li>
         </ul>
@@ -299,29 +346,29 @@
       </section>
     </main>
     <footer>
-      <a class="logo" href="./index.html">Product</a>
+      <a class="link logo" href="./index.html">Product</a>
 
       <ul class="list">
-        <li><a href="">instagram</a></li>
-        <li><a href="">facebook</a></li>
-        <li><a href="">twitter</a></li>
+        <li><a class="link" href="">instagram</a></li>
+        <li><a class="link" href="">facebook</a></li>
+        <li><a class="link" href="">twitter</a></li>
       </ul>
       <div>
         <h2>Resource</h2>
         <ul class="list resource-list">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Blog </a></li>
-          <li><a href="#">Contact </a></li>
-          <li><a href="#">FAQ</a></li>
+          <li><a class="link" href="#">About Us</a></li>
+          <li><a class="link" href="#">Blog </a></li>
+          <li><a class="link" href="#">Contact </a></li>
+          <li><a class="link" href="#">FAQ</a></li>
         </ul>
       </div>
       <div>
         <h2>Legal Stuff</h2>
         <ul class="list resource-list">
-          <li><a href="#">Disclaimer </a></li>
-          <li><a href="#">Financing </a></li>
-          <li><a href="#">Privacy Policy </a></li>
-          <li><a href="#">Terms of Service</a></li>
+          <li><a class="link" href="#">Disclaimer </a></li>
+          <li><a class="link" href="#">Financing </a></li>
+          <li><a class="link" href="#">Privacy Policy </a></li>
+          <li><a class="link" href="#">Terms of Service</a></li>
         </ul>
       </div>
       <div>form</div>

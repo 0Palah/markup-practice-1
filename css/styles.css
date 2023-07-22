@@ -1,3 +1,284 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+ */
+
+/* 
+
+ light-background - #ffffff;
+ main-text-color  - #22343D;
+ second-text-color- #737373;
+ accent-color     - #02897A;
+ text-light       - #ffffff;
+
+  #EDEDED, #FFFFFF00
+  fill: linear-gradient(180deg, #EDEDED 0%, rgba(255, 255, 255, 0.00) 100%);
+   */
+
+:root {
+  --light-background: #ffffff;
+  --logo-dark-color: #173a56;
+
+  --main-text-color: #22343d;
+  --second-text-color: #737373;
+  --text-light: #ffffff;
+  --accent-color: #02897a;
+}
+
+.body {
+  color: var(--main-text-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
 .list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link.logo {
+  color: var(--logo-dark-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.93;
+}
+
+a.accent {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+/* ================= HEADER ================= */
+
+.nav-link {
+  line-height: 1.75;
+}
+
+.nav-link.current {
+  font-weight: 600;
+}
+
+.btn {
+  color: var(--logo-dark-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+}
+
+.small-btn {
+  width: 102px;
+  height: 42px;
+}
+
+.big-btn {
+  width: 178px;
+  height: 53px;
+}
+
+.btn.accent {
+  background-color: var(--accent-color);
+  color: var(--text-light);
+}
+
+/* ================= HERO ================= */
+
+.hero-title {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000000; /* Додаємо контур навколо літер */
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.hero-descr {
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+/* ================= SECTION ================= */
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* ================= ADVANTAGES ================= */
+
+.advantages-descr {
+  line-height: 1.62;
+}
+
+.advantage-subtitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* ================= MANAGEMENT ================= */
+
+.management .section-title {
+  text-align: left;
+}
+
+.pre-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ================= SUPPORT ================= */
+
+.support .section-title {
+  text-align: left;
+}
+
+/* ================= COLLABORATIVE ================= */
+
+.collaborative .section-title {
+  text-align: left;
+}
+
+/* ================= STAFF ================= */
+
+.staff-descr {
+  text-align: center;
+  font-weight: 500;
+}
+
+.emploee-descr {
+  text-align: center;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* ================= STRATEGIES ================= */
+
+.strategies .section-title {
+  text-align: left;
+}
+
+.strategies-list-descr {
+  line-height: 1.75;
+}
+
+.author {
+  font-weight: 700;
+}
+
+.strategies-subtitle {
+  font-size: 24px;
+  line-height: 1.67;
+}
+
+/* ================= PRICE ================= */
+
+.price-descr {
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.price-list {
+  font-family: "Montserrat", sans-serif;
+}
+
+.price-subtitle {
+  font-size: 24px;
+  line-height: 1.67;
+}
+
+.price-subtitle.accent {
+  color: var(--text-light);
+}
+
+.price-item-descr {
+  line-height: 2.5;
+}
+
+.price-item.accent {
+  background-color: var(--accent-color);
+}
+
+.cost {
+  color: var(--accent-color);
+  /* text-align: center; */
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 1.32;
+  letter-spacing: 0.2px;
+}
+
+.cost.accent {
+  color: var(--text-light);
+}
+
+.currency {
+  color: var(--accent-color);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.1px;
+}
+
+.currency.accent {
+  color: var(--text-light);
+}
+
+.period {
+  color: #afafaf;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px; /* 118.75% */
+  letter-spacing: 0.1px;
+}
+
+.period.accent {
+  color: #e0e0e0;
+}
+
+.price-item.accent {
+  color: var(--text-light);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.includes-list {
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: 0.2px;
+}
+
+.accent .btn {
+  color: var(--accent-color);
+}
+
+.reviews-descr {
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+}
+
+.post-descr {
+  color: var(--second-text-color);
+  line-height: 1.75;
+  letter-spacing: 0.2px;
 }
